@@ -5,7 +5,7 @@ import { FiExternalLink } from "react-icons/fi";
 import coffeeBliss from '../../assets/PicturesProjects/coffeebliss.png'
 import permalist from '../../assets/PicturesProjects/permalist.png'
 import GIFBrowser from '../../assets/PicturesProjects/GIFBrowser.png'
-import MyBlog from '../../assets/PicturesProjects/MyBlog.png'
+import MyBlog from '../../assets/PicturesProjects/myblog.png'
 import Rock from '../../assets/PicturesProjects/Rock-Paper-Scissors.png'
 import noteKeeper from '../../assets/PicturesProjects/notekeeper.png'
 
