@@ -2,12 +2,19 @@ import React from "react";
 import { motion } from "framer-motion";
 import { FaGithub } from "react-icons/fa";
 import { FiExternalLink } from "react-icons/fi";
+import coffeeBliss from '../../assets/PicturesProjects/coffeebliss.png'
+import permalist from '../../assets/PicturesProjects/permalist.png'
+import GIFBrowser from '../../assets/PicturesProjects/GIFBrowser.png'
+import MyBlog from '../../assets/PicturesProjects/MyBlog.png'
+import Rock from '../../assets/PicturesProjects/Rock-Paper-Scissors.png'
+import noteKeeper from '../../assets/PicturesProjects/notekeeper.png'
+
 
 
 const projects = [
     {
         name: "Coffee Bliss",
-        image: "/src/assets/PicturesProjects/coffeebliss.png",
+        image: coffeeBliss,
         description:
             "A modern E-commerce web application with Product Pages and Shopping Cart.",
         tags: ["React.JS", "Tailwind CSS","JavaScript","Framer Motion","Vite"],
@@ -15,7 +22,7 @@ const projects = [
     },
     {
         name: "Permalist",
-        image: "/src/assets/PicturesProjects/permalist.png",
+        image: permalist,
         description:
             "ToDo-List: Create multiple lists with customizable colors and add, edit, delete tasks within each list.",
         tags: ["Node.js", "Express", "PostgreSQL", "EJS"],
@@ -23,7 +30,7 @@ const projects = [
     },
     {
         name: "GIF Browser",
-        image: "/src/assets/PicturesProjects/GIFBrowser.png",
+        image: GIFBrowser,
         description:
             "A web app that allows browsing and searching GIFs using API calls.",
         tags: ["API", "Node.js", "Express.js", "EJS", "Axios"],
@@ -31,7 +38,7 @@ const projects = [
     },
     {
         name: "My Blog",
-        image: "/src/assets/PicturesProjects/myblog.png",
+        image: MyBlog,
         description:
             "A dynamic blogging platform where users can create, edit, and delete posts.",
         tags: ["REST API", "Axios", "Node.js", "Express.js", "EJS"],
@@ -39,7 +46,7 @@ const projects = [
     },
     {
         name: "Rock-Paper-Scissors",
-        image: "/src/assets/PicturesProjects/Rock-Paper-Scissors.png",
+        image: Rock,
         description:
             "A simple and fun Rock-Paper-Scissors Game, play against the computer.",
         tags: ["JavaScript", "CSS", "HTML"],
@@ -55,7 +62,7 @@ const projects = [
     },
     {
         name: "Note Keeper",
-        image: "/src/assets/PicturesProjects/notekeeper.png",
+        image: noteKeeper,
         description:
             "A simple and clean note-taking web app for creating, editing, and organizing notes.",
         tags: ["React", "HTML", "CSS"],
