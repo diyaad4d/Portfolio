@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+
+@layer base {
+    html {
+        font-family: 'Inter', sans-serif;
+    }
+}
+body{
+    background-color: #111827 ;
+}
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
